@@ -2,4 +2,4 @@
 
 Solutions to the Ruby Koans (WIP).
 
-More information, here - http://www.rubykoans.com/
+More information, here – http://www.rubykoans.com/
