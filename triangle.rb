@@ -14,6 +14,9 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
+  sorted = [a, b, c].sort
+  raise TriangleError if sorted[0] <= 0
+  raise TriangleError if sorted[0] + sorted[1] <= sorted[2]
   return :equilateral if a == b && b == c
   return :isosceles   if a == b || b == c || c == a
   :scalene
